@@ -34,3 +34,35 @@ body {
   color: #c5cae9;
   transform: rotate(6deg);
 }
+
+.hero {
+  background-color: #c5cae9;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.button {
+  background-color: #3949ab;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
