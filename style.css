@@ -66,3 +66,31 @@ body {
   font-size: 1.18rem;
   display: inline-block;
 }
+
+.features {
+  background-color: #e8eaf6;
+  padding: 60px 45px;
+}
+
+.features-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
+}
+
+.featured-item h3 {
+  color: #283593;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.featured-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
