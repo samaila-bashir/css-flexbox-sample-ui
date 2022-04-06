@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -93,4 +94,11 @@ body {
   margin: 0;
   line-height: 1.6;
   color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+  font-size: 0.9rem;
 }
